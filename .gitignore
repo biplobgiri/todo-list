@@ -1,0 +1,38 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.todo-env/
+
+# VS Code
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+*.cover
+*.coverage
+htmlcov/
+
+# Test logs
+tests/__pycache__/
+tests/*.log
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pydantic warnings cache
+*.pydantic/
+
+# Environments & Secrets
+.env
+.env.*
